@@ -8,7 +8,7 @@
     <meta charset="utf-8">
 	<style>
 		#map {
-        	height: 400px;
+        	height: 250px;
         	width: 100%;
        }
 	</style>
@@ -16,7 +16,7 @@
 <body>
 	<div id="wrap">
 		<div class="menu-centered">
-			<ul class="menu expanded">
+			<ul class="menu">
 				<li><a href="index.html">Startsida</a></li>
 				<li><a href="meny.html">Meny</a></li>
 				<li><a href="drycker.html">Drycker</a></li>
@@ -43,13 +43,13 @@
 		</div>
 		<div class="row">
 			<div class="small-3 columns">
-				<h2>Hitta till oss</h2>
+				<h4>Hitta till oss</h4>
 				<div id="map"></div>
 				<script>
 	  				function initMap() {
-	    				var uluru = {lat: -25.363, lng: 131.044};
+	    				var uluru = {lat: 57.710568, lng: 11.986671};
 	    				var map = new google.maps.Map(document.getElementById('map'), {
-	      					zoom: 4,
+	      					zoom: 13,
 	      					center: uluru
 	    				});
 	    				var marker = new google.maps.Marker({
