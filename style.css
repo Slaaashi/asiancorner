@@ -1,20 +1,32 @@
 #wrap{
-	width:75%;
+	width:100%;
 	margin: auto;
 }
-.menu li a{
-	border: 1px solid black;
-}
+
 .menu li a:hover{
-	background-color: grey;
+	color: red;
 }
 .slideshowimg{
 	width:80%;
-	margin:auto;
+	margin-left: 10%;
+	margin-top: 100px;
 	max-height: 500px;
 	min-height: :50px;
 }
 .left-button{
 	position: relative;
 	margin-left: 48%;
+}
+
+
+.menu{
+	background-color: black;
+	position: fixed;
+	height: 90px;
+	
+}
+
+.menu a{
+	color: white;
+	text-align: center;
 }
