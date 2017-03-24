@@ -32,10 +32,13 @@
 }
 #findtimelike{
 	text-align: center;
+	margin-left: 0px;
+	max-width: 100%;
 }
 #textheader{
 	text-align: center;
 }
-#textdiv div p{
+#textdivone div p {
 	text-align: center;
-}
+	color: blue;
+} 
