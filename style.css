@@ -1,14 +1,19 @@
 #wrap{
 	width:100%;
 	margin: auto;
+	background-image: url('asd.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .menu li a:hover{
 	color: red;
 }
 .slideshowimg{
-	width:80%;
-	margin-left: 10%;
+	width:100%;
+	max-width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
 	margin-top: 100px;
 	max-height: 500px;
 	min-height: :50px;
