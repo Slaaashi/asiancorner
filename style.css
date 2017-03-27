@@ -2,6 +2,9 @@
 	width:100%;
 	margin: auto;
 }
+.row{
+	border-radius: 20px;
+}
 .background{
 	background-image: url('asd.jpg');
 	filter: blur(10px);	
@@ -46,6 +49,7 @@
 	max-width: 100%;
 	background-color: black;
 	padding:2%;
+	border-radius: 0px;
 }
 #textheader{
 	text-align: center;
@@ -66,15 +70,10 @@ body h4, h3, p{
 }
 
 .row {
-  z-index: 100;
   padding: 0px;
-  background: rgb(34,34,34);
+  background: rgb(34,34,34); /* for IE */
   background: rgba(34,34,34,0.75);
 }
-
-.row {
-
-  -webkit-filter: blur(10px);
-  filter: url('/media/blur.svg#blur');
-  filter: blur(10px);
+#findus, #textdiv1, #textdiv2, #textdiv3{
+	margin-bottom: 1%;
 }
