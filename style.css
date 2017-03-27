@@ -48,7 +48,7 @@
 	margin-left: 0px;
 	max-width: 100%;
 	background-color: black;
-	padding:2%;
+	padding:1%;
 	border-radius: 0px;
 }
 #textheader{
@@ -61,8 +61,11 @@
 body h4, h3, p{
 	color: white;
 }
-.map h3{
+#findus div h3{
 	color: white;
+}
+#findus div{
+	padding-bottom: 2%;
 }
 #findus h3, #map{
 	text-align: center;
