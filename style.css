@@ -12,10 +12,12 @@
 .slideshowimg{
 <<<<<<< HEAD
 	width:100%;
+	border: 2px solid black;
+	height: 750px;
 	max-width: 100%;
-	margin-left: 0px;
 	margin-right: 0px;
 	margin-top: 100px;
+<<<<<<< HEAD
 =======
 	width:200%;
 
@@ -23,6 +25,8 @@
 >>>>>>> origin/master
 	max-height: 500px;
 	min-height: :50px;
+=======
+>>>>>>> origin/master
 }
 .left-button{
 	position: relative;
