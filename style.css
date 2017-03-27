@@ -14,7 +14,6 @@
 	width:100%;
 	border: 2px solid black;
 	height: 750px;
-	max-width: 100%;
 	margin-right: 0px;
 	margin-top: 100px;
 }
@@ -49,7 +48,10 @@
 	text-align: center;
 } 
 
-body h4{
+body h4, h3, p{
+	color: white;
+}
+.map h3{
 	color: white;
 }
 #findus h3, #map{
