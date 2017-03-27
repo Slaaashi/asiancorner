@@ -1,11 +1,17 @@
 #wrap{
 	width:100%;
 	margin: auto;
+}
+.background{
 	background-image: url('asd.jpg');
+	filter: blur(10px);	
 	background-repeat: no-repeat;
 	background-size: cover;
+	height:100%;
+	width:100%;
+	z-index: -1;
+	position: fixed;
 }
-
 .menu li a:hover{
 	color: red;
 }
@@ -14,6 +20,7 @@
 	margin-right: 0px;
 	margin-top: 90px;
 	height: 795.797px;
+	width: 1200px;
 
 }
 .left-button{
