@@ -16,6 +16,16 @@
 	height: 750px;
 	margin-right: 0px;
 	margin-top: 100px;
+<<<<<<< HEAD
+=======
+	width:200%;
+
+	margin-top: 90px;
+>>>>>>> origin/master
+	max-height: 500px;
+	min-height: :50px;
+=======
+>>>>>>> origin/master
 }
 .left-button{
 	position: relative;
@@ -49,12 +59,21 @@
 } 
 
 body h4, h3, p{
+<<<<<<< HEAD
 	color: white;
 }
 .map h3{
+=======
+>>>>>>> origin/master
 	color: white;
 }
 #findus h3, #map{
 	text-align: center;
 	margin: auto;
+}
+
+.row {
+  padding: 0px;
+  background: rgb(34,34,34); /* for IE */
+  background: rgba(34,34,34,0.75);
 }
