@@ -86,7 +86,7 @@ body h4, h3, p{
 <<<<<<< HEAD
 }
 
-#textdiv1{
+#textdiv1, #textdive2, #textdiv3{
 	padding: 0px;
 	background: rgb(34,34,34); /* for IE */
   	background: rgba(34,34,34,0.75);
@@ -94,3 +94,4 @@ body h4, h3, p{
 	background: rgba(34,34,34,0.75);
 >>>>>>> origin/master
 }
+
