@@ -40,7 +40,15 @@
 	height: 90px;
 	
 }
-
+#meny{
+	margin-top: 120px;
+	background-color: rgba(34,34,34,0.75);
+	border-radius: 20px;
+}
+.row{
+	border-radius: 20px;
+	}	
+	/*background-color: rgba(34,34,34,0.75);*/
 .menu a{
 	color: white;
 	text-align: center;
