@@ -82,8 +82,7 @@ body h4, h3, p{
 }
 #findus, #textdiv1, #textdiv2, #textdiv3{
 	margin-bottom: 1%;
+	background: rgb(34,34,34); /* for IE */
 	background: rgba(34,34,34,0.75);
 	padding: 0px;
-	background: rgb(34,34,34); /* for IE */
 }
-
