@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face {
   font-family: 'MyWebFont';
   src: url('webfont.eot'); /* IE9 Compat Modes */
@@ -91,17 +92,24 @@
 @-webkit-keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+=======
+.slideshow{
+	width:40%;
+	margin:auto;
+	padding-top: 5%;
+	border:solid black 2px;
 }
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+#buttonleft, #buttonright{
+	background-color: rgba(255, 255, 255, 0.25);
+	padding:10px;
+	position: relative;
+	top: -350px;
+>>>>>>> origin/master
 }
-
-
-
-
-
+#buttonright{
+	float:right;
+	position: relative;
+}
 #wrap{
 	width:100%;
 	margin: auto;
@@ -119,15 +127,6 @@
 }
 .menu li a h4:hover{
 	color: red;
-}
-.slideshowimg{
-	border: 2px solid black;
-	margin-right: 0px;
-	margin-top: 90px;
-	height: 795.797px;
-	width: 100%;
-	border-radius: 20px;
-
 }
 .left-button{
 	position: relative;
