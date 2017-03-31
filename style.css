@@ -55,6 +55,15 @@
 	background-color: black;
 	padding:1%;
 	border-radius: 0px;
+	
+	
+}
+#findtimelike h4{
+	color: red;
+}
+#findtimelike p{
+	text-align: center;
+	
 }
 #meny{
 	background: rgba(34,34,34,0.75);
