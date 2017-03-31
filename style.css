@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('webfont.eot'); /* IE9 Compat Modes */
+  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
 .slideshow-container {
   max-width: 1000px;
   position: relative;
@@ -97,7 +107,7 @@
 	margin: auto;
 }
 .background{
-	background-image: url('asd.jpg');
+	background-image: url('4.jpg');
 	filter: blur(10px);	
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -199,3 +209,15 @@ body h4, h3, p{
 	padding: 0px;
 	}
 
+/* Meny*/
+#topbar {
+	text-align: center;
+}
+
+#topbar h3{
+	font-family: 'MyWebFont', Fallback, sans-serif;
+	width: 100%;
+	background-color: red;
+	color: black;
+	font-weight: bold;
+}
