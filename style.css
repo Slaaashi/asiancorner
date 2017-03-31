@@ -58,12 +58,16 @@
 	
 	
 }
+
 #findtimelike h4{
 	color: red;
 }
 #findtimelike p{
 	text-align: center;
 	
+}
+#findtimelike img{
+	margin-top: 20px;
 }
 #meny{
 	background: rgba(34,34,34,0.75);
