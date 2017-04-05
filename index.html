@@ -37,25 +37,22 @@
 		<br>
 		<br>
 		<br>
-			<div class="slideshow">
-				<img class="mySlides" src="pictures/black.jpg">
-				<img class="mySlides" src="pictures/yellow.jpg">
-				<img class="mySlides" src="pictures/blue.jpg">
-			</div>
-			<div style="width:40%;margin:auto;">
-				<button style="border-left:solid 2px black;" id="buttonleft" class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-				<button style="border-right:solid 2px black;" id="buttonright" class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
-			</div>
-		<hr>
 		
-		<div class="row" id="textdiv1">
-			<div class="small-12 columns"><p>Bild och text</p></div>	
+		<div class="row" id="textdiv1" style="padding:15px; border: 2px solid black;">
+			<div class="small-9 columns"><img src="pictures/black.jpg" style="border: 2px solid black; border-radius: 20px;"></div>
+			<div class="small-3 columns"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut est a nisi fermentum malesuada. Nullam tempor fringilla ante quis hendrerit. Maecenas pharetra eu felis nec blandit. Vivamus nibh est, maximus a laoreet quis, mollis in libero. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus et sem urna. Mauris eu semper nulla, et congue leo.</p></div>	
 		</div>
-		<div class="row" id="textdiv2">
-			<div class="small-12 columns"><p>Bild och text</p></div>
+		<div class="row" id="textdiv2" style="padding:15px; border: 2px solid black;">
+			<div class="small-6 columns">
+				<p>Donec iaculis laoreet molestie. Nulla dignissim quam eu massa finibus feugiat. Phasellus sit amet diam metus. Sed a consectetur velit, at congue lacus. Vivamus ac urna vehicula, egestas metus quis, finibus ipsum. Aliquam dui ligula, congue id tortor vitae, ullamcorper egestas justo. Nunc vehicula ante in nisl lacinia, id vehicula tellus tempor. Nullam maximus tortor eu arcu finibus, ut varius nisl luctus. <br> <br>Aliquam et eros lorem. Aliquam id tempus lorem. Fusce dapibus malesuada tempus. Aliquam vitae enim vel ex ullamcorper imperdiet. Aliquam arcu neque, viverra elementum luctus eu, euismod id erat. Sed volutpat, tellus ut porttitor scelerisque, sem metus dictum elit, nec pellentesque orci erat a neque. Nulla eu convallis purus. Vestibulum congue nunc sem.</p>
+			</div>
+			<div class="small-6 columns">
+				<img src="pictures/yellow.jpg" style="border: 2px solid black; border-radius: 20px;">
+			</div>
 		</div>
-		<div class="row" id="textdiv3">
-			<div class="small-12 columns"><p>Bild och text</p></div>
+		<div class="row" id="textdiv3" style="padding:15px; border: 2px solid black;">
+			<div class="small-6 columns"><img src="pictures/blue.jpg" style="border: 2px solid black; border-radius: 20px;"></div>
+			<div class="small-6 columns"><p>Etiam a finibus libero. Vivamus ullamcorper eros odio. Vivamus volutpat elementum neque, nec dignissim eros elementum sed. Vivamus vel justo vehicula, iaculis arcu id, dictum mauris. Duis faucibus porta augue eu lacinia. Sed euismod, tortor a vulputate varius, risus lorem cursus massa, nec lobortis tortor ligula eu turpis. Pellentesque sit amet metus massa. Vestibulum et nisi nulla. Donec tristique dolor quis tellus ultricies mollis at et ipsum.</p></div>
 		</div>
 		<div class="row" id="findus">
 			<div class="small-6 columns">
@@ -106,32 +103,4 @@
 	</div>
 	<script src="scripts.js"></script>
 </body>
-					<script>
-						var slideIndex = 1;
-						showDivs(slideIndex);
-
-						function plusDivs(n) {
-						  showDivs(slideIndex += n);
-						}
-
-						function currentDiv(n) {
-						  showDivs(slideIndex = n);
-						}
-
-						function showDivs(n) {
-						  var i;
-						  var x = document.getElementsByClassName("mySlides");
-						  var dots = document.getElementsByClassName("demo");
-						  if (n > x.length) {slideIndex = 1}    
-						  if (n < 1) {slideIndex = x.length}
-						  for (i = 0; i < x.length; i++) {
-						     x[i].style.display = "none";  
-						  }
-						  for (i = 0; i < dots.length; i++) {
-						     dots[i].className = dots[i].className.replace(" w3-white", "");
-						  }
-						  x[slideIndex-1].style.display = "block";  
-						  dots[slideIndex-1].className += " w3-white";
-						}
-					</script>
 </html>
