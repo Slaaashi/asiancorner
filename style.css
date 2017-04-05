@@ -1,8 +1,7 @@
 #topbar h3{
 	font-family: 'MyWebFont', Fallback, sans-serif;
 	width: 100%;
-	background-color: red;
-	color: black;
+	color: white;
 	font-weight: bold;
 }
 .slideshow{
@@ -25,8 +24,7 @@
 	margin: auto;
 }
 .background{
-	background-image: url('asd.jpg');
-	filter: blur(10px);	
+	background-image: url('pictures/black.jpg');	
 	background-repeat: no-repeat;
 	background-size: cover;
 	height:105%;
@@ -48,11 +46,14 @@
 	background-color: black;
 	position: fixed;
 	height: 90px;
-	
+	z-index: 99;
 }
 #meny{
 	margin-top: 120px;
 	border-radius: 20px;
+}
+#meny h3{
+	text-align: center;
 }
 #meny p span{
 	float:right;
