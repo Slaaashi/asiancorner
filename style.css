@@ -58,6 +58,9 @@
 #meny p span{
 	float:right;
 }
+#meny p{
+	text-align: center;
+}
 .row{
 	border-radius: 20px;
 	}	
