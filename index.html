@@ -27,8 +27,13 @@
 	<div class="background">
 	</div>
 		<ul class="menu expanded">
-			<li><a href="index.html"><h4>Hem</h4></a></li>
-			<li><a href="meny.html"><h4>Meny</h4></a></li>
+				<li><a href="index.html"><h4>Hem</h4></a></li>
+				<a data-dropdown="drop1" aria-controls="drop1" aria-expanded="false">Meny</a>
+				<ul id="drop1" class="f-dropdown" data-dropdown-content aria-hidden="true" tabindex="-1">
+	  				<li><a href="#">This is a link</a></li>
+					<li><a href="#">This is another</a></li>
+					<li><a href="#">Yet another</a></li>
+				</ul>
 			<li><a href="drycker.html"><h4>Drycker</h4></a></li>
 			<li><a href="kontakt.html"><h4>Kontakt & Bokning</h4></a></li>
 		</ul>

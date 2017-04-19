@@ -24,7 +24,7 @@
 	margin: auto;
 }
 .background{
-	background-image: url('pictures/black.jpg');	
+	background-image: url('pictures/background.jpg');	
 	background-repeat: no-repeat;
 	background-size: cover;
 	height:105%;
