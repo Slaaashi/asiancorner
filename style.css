@@ -26,10 +26,14 @@
 }
 .background{
 <<<<<<< HEAD
+<<<<<<< HEAD
 	background-image: url('4.jpg');
 		
 =======
 	background-image: url('pictures/black.jpg');	
+>>>>>>> origin/master
+=======
+	background-image: url('pictures/background.jpg');	
 >>>>>>> origin/master
 	background-repeat: no-repeat;
 	background-size: cover;
