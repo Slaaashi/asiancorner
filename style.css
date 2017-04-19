@@ -1,15 +1,13 @@
 #topbar h3{
 	font-family: 'MyWebFont', Fallback, sans-serif;
 	width: 100%;
-	background-color: red;
-	color: black;
+	color: white;
 	font-weight: bold;
 	text-align: center;
 }
 .slideshow{
 	width:50%;
 	margin:auto;
-	padding-top: 5%;
 	border:solid black 2px;
 }
 #buttonleft, #buttonright{
@@ -27,8 +25,12 @@
 	margin: auto;
 }
 .background{
+<<<<<<< HEAD
 	background-image: url('4.jpg');
 		
+=======
+	background-image: url('pictures/black.jpg');	
+>>>>>>> origin/master
 	background-repeat: no-repeat;
 	background-size: cover;
 	height:105%;
@@ -50,11 +52,20 @@
 	background-color: black;
 	position: fixed;
 	height: 90px;
-	
+	z-index: 99;
 }
 #meny{
 	margin-top: 120px;
 	border-radius: 20px;
+}
+#meny h3{
+	text-align: center;
+}
+#meny p span{
+	float:right;
+}
+#meny p{
+	text-align: center;
 }
 .row{
 	border-radius: 20px;
@@ -69,9 +80,6 @@
 	background-color: black;
 	padding:1%;
 	border-radius: 0px;
-<<<<<<< HEAD
-	
-	
 }
 
 #findtimelike h4{
@@ -79,9 +87,6 @@
 }
 #findtimelike p{
 	text-align: center;
-	
-=======
->>>>>>> origin/master
 }
 #findtimelike img{
 	margin-top: -20px;
