@@ -4,9 +4,10 @@
 	background-color: red;
 	color: black;
 	font-weight: bold;
+	text-align: center;
 }
 .slideshow{
-	width:40%;
+	width:50%;
 	margin:auto;
 	padding-top: 5%;
 	border:solid black 2px;
@@ -26,8 +27,8 @@
 	margin: auto;
 }
 .background{
-	background-image: url('asd.jpg');
-	filter: blur(10px);	
+	background-image: url('4.jpg');
+		
 	background-repeat: no-repeat;
 	background-size: cover;
 	height:105%;
@@ -83,7 +84,8 @@
 >>>>>>> origin/master
 }
 #findtimelike img{
-	margin-top: 20px;
+	margin-top: -20px;
+	margin-left: -20px;
 }
 #meny{
 	background: rgba(34,34,34,0.75);
