@@ -3,10 +3,9 @@
 	width: 100%;
 	color: white;
 	font-weight: bold;
-	text-align: center;
 }
 .slideshow{
-	width:50%;
+	width:40%;
 	margin:auto;
 	border:solid black 2px;
 }
@@ -25,16 +24,7 @@
 	margin: auto;
 }
 .background{
-<<<<<<< HEAD
-<<<<<<< HEAD
-	background-image: url('4.jpg');
-		
-=======
-	background-image: url('pictures/black.jpg');	
->>>>>>> origin/master
-=======
 	background-image: url('pictures/background.jpg');	
->>>>>>> origin/master
 	background-repeat: no-repeat;
 	background-size: cover;
 	height:105%;
@@ -93,8 +83,7 @@
 	text-align: center;
 }
 #findtimelike img{
-	margin-top: -20px;
-	margin-left: -20px;
+	margin-top: 20px;
 }
 #meny{
 	background: rgba(34,34,34,0.75);
